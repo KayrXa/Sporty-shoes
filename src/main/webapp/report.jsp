@@ -92,11 +92,11 @@
 	<div align="center">
         <table class="table" border="1" cellpadding="5">
             <tr>
-                <th>Shoes ID</th>
-                <th>Shoes Date</th>
-                <th>Shoes Status</th>
+                <th>Order ID</th>
+                <th>Date</th>
+                <th>Order Status</th>
                 <th>User ID</th>
-                <th>Shoes Purchased IDs</th>
+                <th>Shoes IDs</th>
                 <th>Total Price</th>
             </tr>
             <c:forEach items="${purchaseList}" var="purchase">

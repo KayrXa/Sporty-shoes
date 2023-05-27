@@ -84,15 +84,15 @@
 			<div class="row">
 				<div class="col-lg-6 col-lg-offset-3">
 					<div class="form-group">
-						<label for="name">Shoes ID*: </label> <input type="text" readonly="readonly"
+						<label for="sid">Shoes ID: </label> <input type="text" readonly="readonly"
 							class="form-control" value="${shoes.sid}" id="sid" name="sid">
 					</div>
 					<div class="form-group">
-						<label for="name">Product Name*: </label> <input type="text" readonly="readonly"
+						<label for="name">Shoes Name: </label> <input type="text" readonly="readonly"
 							class="form-control" value="${shoes.name}" id="name" name="name">
 					</div>
 					<div class="form-group">
-						<label for="price">Price*: </label> <input type="number"
+						<label for="price">Price: </label> <input type="number"
 							class="form-control" value="${shoes.price}" id="price" name="price">
 					</div>
 					<div class="form-group">
@@ -104,11 +104,11 @@
 						<select class="form-control" id="type" name="type">
 							<option value=""> </option>
 							<option value="sport">sport</option>
-							<option value="outdoor">"outdoor"</option>
-							<option value="walking">"walking"</option>
-							<option value="dancing">"dancing"</option>
-							<option value="fancy">"fancy"</option>
-							<option value="galactic">"galactic"</option>
+							<option value="outdoor">outdoor</option>
+							<option value="walking">walking</option>
+							<option value="dancing">dancing</option>
+							<option value="fancy">fancy</option>
+							<option value="galactic">galactic</option>
 						</select>
 					</div>
 					<div class="form-group">
